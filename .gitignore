@@ -7,3 +7,10 @@ views/archive
 ngrok.exe
 package-lock.json
 pnpm-lock.yaml
+debug.log
+/lib/rammerhead/sessions/*
+!/lib/rammerhead/sessions/.gitignore
+/lib/rammerhead/cache-js/*
+!/lib/rammerhead/cache-js/.gitignore
+/views/dist/*
+/src/.shutdown

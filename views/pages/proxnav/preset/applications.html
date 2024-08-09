@@ -25,8 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <script src="/baremux/bare.cjs" defer></script>
-    <script src="/epoxy/index.js" defer></script>
+    <script src="/baremux/index.js" defer></script>
     <script src="/uv/uv.bundle.js" defer></script>
     <script src="/uv/uv.config.js" defer></script>
     <script src="/assets/js/register-sw.js" defer></script>
@@ -91,36 +90,30 @@
           </ul>
         </div>
         <div>
-          <a
-            class="fancybutton glowbutton"
-            href="#"
-            onclick="goProx.rammerhead('https://discord.com/app');"
-            >Ra&#173;mmer&#173;head (Classic)</a
-          >
-          <a
-            class="fancybutton glowbutton"
-            href="#"
-            onclick="goProx.rammerhead('https://discord.com/app', true);"
-            >Ra&#173;mmer&#173;head (Stealth)</a
-          >
-          <a
-            class="fancybutton glowbutton"
-            href="#"
-            onclick="goProx.ultraviolet('https://discord.com/app');"
-            >Ultr&#173;av&#173;iol&#173;et (Classic)</a
-          >
-          <a
-            class="fancybutton glowbutton"
-            href="#"
-            onclick="goProx.ultraviolet('https://discord.com/app', true);"
-            >Ultr&#173;avi&#173;ole&#173;t (Stealth)</a
-          >
+          <div id="pr-rh-dc">
+            <a href="#" class="fancybutton glowbutton pr-go1"
+              >Ra&#173;mmer&#173;head (Classic)</a
+            >
+            <a href="#" class="fancybutton glowbutton pr-go2"
+              >Ra&#173;mmer&#173;head (Stealth)</a
+            >
+          </div>
+          <div id="pr-uv-dc">
+            <a
+              href="#"
+              style="display: none"
+              class="fancybutton glowbutton pr-go1"
+              >Ultr&#173;av&#173;iol&#173;et (Classic)</a
+            >
+            <a href="#" class="fancybutton glowbutton pr-go2"
+              >Ultr&#173;avi&#173;ole&#173;t (Stealth)</a
+            >
+          </div>
         </div>
       </div>
     </div>
     <div id="footer" class="fullwidth"><!--FOOTER--></div>
     <script src="assets/js/common.js"></script>
-    <script src="assets/js/links.js"></script>
     <script src="assets/js/csel.js"></script>
     <script defer="defer" src="assets/js/particlesjs/particles.js"></script>
   </body>

@@ -2,10 +2,10 @@
   await loadFull(tsParticles);
 
   await tsParticles.load({
-    id: "particles-js",
+    id: 'particles-js',
     options: {
       background: {
-        color: { value: "#2e3440" },
+        color: { value: '#1d232a' },
       },
       fullScreen: {
         enable: true,
@@ -22,14 +22,14 @@
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: '#ffffff',
         },
         move: {
           enable: true,
-          speed: 2,
-          direction: "none",
+          speed: 0.8,
+          direction: 'none',
           outModes: {
-            default: "out",
+            default: 'out',
           },
         },
         number: {
@@ -43,25 +43,25 @@
           value: { min: 0.1, max: 0.5 },
           animation: {
             enable: true,
-            speed: 3,
+            speed: 0.5,
             sync: false,
           },
         },
         shape: {
-          type: "circle",
+          type: 'circle',
         },
         size: {
           value: { min: 1, max: 5 },
           animation: {
             enable: true,
-            speed: 5,
+            speed: 0.5,
             sync: false,
           },
         },
         links: {
           enable: true,
           distance: 150,
-          color: "#ffffff",
+          color: '#ffffff',
           opacity: 0.4,
           width: 1,
         },
